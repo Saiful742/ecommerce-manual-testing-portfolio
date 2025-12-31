@@ -1,0 +1,5 @@
+TC_ID,Module,Test Case Description,Precondition,Test Steps,Expected Result,Actual Result,Status
+TC_REG_01,Registration,Register with valid data,User on registration page,1. Enter valid name2. Enter valid email3. Enter valid password4. Click Register,User should be registered successfully,As Expected,Pass
+TC_REG_02,Registration,Register with existing email,Existing email available,1. Enter existing email2. Submit form,Error message displayed,As Expected,Pass
+TC_REG_03,Registration,Register with empty fields,None,Click Register without entering data,Validation messages shown,As Expected,Pass
+TC_REG_04,Registration,Password minimum length validation,None,Enter password less than required length,Error message shown,As Expected,Pass
