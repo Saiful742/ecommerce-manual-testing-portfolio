@@ -1,0 +1,4 @@
+TC_ID,Module,Test Case Description,Precondition,Test Steps,Expected Result,Actual Result,Status
+TC_LOG_01,Login,Login with valid credentials,User registered,Enter valid email & password,Login successful,As Expected,Pass
+TC_LOG_02,Login,Login with invalid password,User registered,Enter valid email & wrong password,Error message displayed,As Expected,Pass
+TC_LOG_03,Login,Login with empty fields,None,Click login without data,Validation message displayed,As Expected,Pass
