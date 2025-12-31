@@ -1,0 +1,13 @@
+Bug ID,Summary,Module,Environment,Severity,Priority,Precondition,Steps to Reproduce,Expected Result,Actual Result,Status,Reported By
+BUG_001,Login error message overlaps UI,Login,Chrome / Windows,Medium,High,User on login page,"1. Enter valid email
+2. Enter wrong password
+3. Click Login",Error message should display properly,Error message overlaps login button,Open,QA Tester
+BUG_002,Registration allows invalid email format,Registration,Chrome / Windows,High,High,User on registration page,"1. Enter invalid email
+2. Fill other fields
+3. Submit form",System should show validation error,Form submitted successfully,Open,QA Tester
+BUG_003,Cart item count not updated,Cart,Firefox / Windows,Medium,Medium,User logged in,"1. Add product to cart
+2. Increase quantity",Cart count should update,Cart count remains same,Open,QA Tester
+BUG_004,Checkout button enabled with empty cart,Checkout,Chrome / Windows,High,High,Cart is empty,"1. Navigate to cart
+2. Click Checkout",Checkout should be disabled,User redirected to checkout page,Open,QA Tester
+BUG_005,Payment success message not displayed,Payment,Chrome / Windows,Critical,High,User on payment page,"1. Enter valid card details
+2. Click Pay",Payment success message shown,Blank page displayed,Open,QA Tester
