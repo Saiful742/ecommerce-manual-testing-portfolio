@@ -1,0 +1,11 @@
+Field,Description
+Project Name,E-Commerce Web Application
+Test Objective,Verify all features work as per requirements
+Scope,Functional & UI testing
+Out of Scope,Performance & Security
+Test Type,Manual Testing
+Test Environment,"Chrome, Firefox, Windows"
+Entry Criteria,Build available & test data ready
+Exit Criteria,All critical bugs fixed
+Test Deliverables,"Test cases, Bug reports"
+Risks,Payment gateway dependency
