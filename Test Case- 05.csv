@@ -1,0 +1,11 @@
+Test Case ID,Test Scenario,Test Case Title,Preconditions,Test Steps,Test Data,Expected Result,Priority
+TC_CHECKOUT_001,Order placement,Place order with valid details,Item in cart,Complete checkout,Valid address & payment,Order placed successfully,High
+TC_CHECKOUT_002,Validation,Checkout with empty address,Item in cart,Leave address empty,N/A,Address validation shown,High
+TC_CHECKOUT_003,Payment,Invalid card details,Item in cart,Enter invalid card,1234,Payment failed message,High
+TC_CHECKOUT_004,Payment,Valid card payment,Item in cart,Enter valid card,Valid card,Payment successful,High
+TC_CHECKOUT_005,Payment,Cash on delivery,Item in cart,Select COD,N/A,Order placed,Medium
+TC_CHECKOUT_006,Order summary,Verify order summary,Item in cart,Review summary,N/A,Correct product & price shown,Medium
+TC_CHECKOUT_007,Security,HTTPS verification,Checkout page,Observe URL,N/A,HTTPS enabled,High
+TC_CHECKOUT_008,Navigation,Back to cart,Item in cart,Click Back,N/A,Redirected to cart page,Low
+TC_CHECKOUT_009,Failure,Payment gateway timeout,Item in cart,Simulate timeout,N/A,Error message displayed,High
+TC_CHECKOUT_010,Confirmation,Order confirmation email,Order placed,Check email,N/A,Confirmation email received,Medium
