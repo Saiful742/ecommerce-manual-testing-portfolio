@@ -1,0 +1,11 @@
+Scenario ID,Module,Scenario Description
+TS_01,Registration,Verify user can register with valid data
+TS_02,Login,Verify login with valid credentials
+TS_03,Login,Verify error message for invalid login
+TS_04,Search,Verify product search works correctly
+TS_05,Cart,Verify product can be added to cart
+TS_06,Checkout,Verify checkout process
+TS_07,Payment,Verify payment with valid card
+TS_08,Orders,Verify order history display
+TS_09,Profile,Verify user can update profile
+TS_10,Logout,Verify user logout functionality
