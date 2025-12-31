@@ -1,0 +1,4 @@
+TC_ID,Module,Test Case Description,Precondition,Test Steps,Expected Result,Actual Result,Status
+TC_SRCH_01,Search,Search with valid product name,Products exist,Enter product name & search,Product list displayed,As Expected,Pass
+TC_SRCH_02,Search,Search with invalid keyword,None,Enter random keyword,No results message shown,As Expected,Pass
+TC_SRCH_03,Search,Search with empty input,None,Click search without input,Validation shown,As Expected,Pass
