@@ -1,0 +1,4 @@
+TC_ID,Module,Test Case Description,Precondition,Test Steps,Expected Result,Actual Result,Status
+TC_CART_01,Cart,Add product to cart,User logged in,Click Add to Cart,Product added successfully,As Expected,Pass
+TC_CART_02,Cart,Remove product from cart,Product in cart,Click Remove,Product removed,As Expected,Pass
+TC_CART_03,Cart,Update product quantity,Product in cart,Change quantity,Quantity updated,As Expected,Pass
